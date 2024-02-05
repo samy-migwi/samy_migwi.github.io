@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samy Migwi - Data Scientist</title>
+
+    <style>
+        body {
+            font-family: 'lato', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Top Bar with Social Media Links */
+        .top-bar {
+            background-color:#556b6f6f;
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Introduction Bar */
+        .intro-bar {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Projects Bar */
+        .projects-bar {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        /* Education Bar */
+        .education-bar {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Skills Bar */
+        .skills-bar {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body style="text-align-last: center;">
+
+    <!-- Top Bar with Social Media Links -->
+    <div class="top-bar">
+        <a href="https://www.kaggle.com/samymigwi" target="_blank"><img src="https://th.bing.com/th/id/OIP.pW4BUB3wLraUiIzAH2ssXwHaDV?rs=1&pid=ImgDetMain" height="60" width="auto" alt=""></a> 
+        
+        <a href="https://www.linkedin.com/in/samy-migwi/" target="_blank"> <img src="https://th.bing.com/th/id/OIP.RRB-VCGDK-nLL2l1t3EENAHaB2?rs=1&pid=ImgDetMain" height="60" width="auto"></a> 
+        <a href="https://github.com/YourGitHubProfile" target="_blank"><img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png"  height="60" width="auto"
+            ></a>
+    </div>
+
+    <div class="intro-bar" style="background-color: #f2f2f2; padding: 0px;">
+        <img src="https://webrodcepedamarin.herokuapp.com/assets/rub.gif" alt="Rubix Cube Gif"  style="width: 230px; height: auto;">
+        <p style="letter-spacing: 1px; ">
+            <strong>Hello , I am a recent graduate from WorldQuant University (Data science boot camp) and I have completed my undergraduate at Kirinyaga University in Computer Science. Since graduating from WorldQuant, I decided to dig deeper into Machine learning, and I have immense knowledge that I now consider myself a unicorn Data scientist.</strong>
+        </p>
+    </div>
+    <!-- Introduction Bar 
+    <div class="intro-bar">
+        <p>
+            <strong>Hi there, I am a recent graduate from WorldQuant University (Data science boot camp) and I have completed my undergraduate at Kirinyaga University in Computer Science. Since graduating from WorldQuant, I decided to dig deeper into Machine learning, and I have immense knowledge that I now consider myself a unicorn Data scientist.</strong>
+        </p>
+        <img src="..\files\rub.gif" alt=""width="400" height="400">
+    </div> -->
+
+    <!-- Projects Bar -->
+    <div class="projects-bar">
+        <h2>Projects:</h2>
+        <!--Project chicago -->
+        <div>
+            <h3 style="color: #333;"><a href="https://chicago-car-crashes.streamlit.app/">1. Car Crash Analysis for City of Chicago</a></h3>
+            <img src="..\files\crash.png" alt="">
+            <p style="text-align: center;">
+                
+                Initiated the project with a dataset exceeding 400 MB, focusing on car crashes in Chicago.
+                
+                Employed the pandas library to cleanse the data for the upcoming exploratory data analysis (EDA) phase.
+                Utilized Matplotlib and Seaborn for visualizing the data during the EDA.
+                Utilized the Plotly Express library to create meaningful visualizations.
+                Streamlined the dataset, retaining data only from January 2023 to December 2023, to facilitate GitHub project hosting.
+                Hosted the visualizations on Streamlit using the Python Streamlit library.
+             <a href="https://medium.com/@samy.migwi/crunching-numbers-and-collisions-a-comprehensive-analysis-of-car-crashes-in-the-windy-city-1fcd3edc1644"> Chigaco insights blog on medium</a>
+            </p>
+
+        </div>
+
+        <div>
+            <h3 style="color: #333;" ><a href="https://visualization-kenya-voters.streamlit.app/">2. Kenya Voters Visualization</a></h3>
+           
+                <img src="..\files\topcont.png" alt="">
+                <p style="text-align: center;">
+              
+                    This project aimed to test my data analysis and visualization skills. After downloading the data from the IEBC website in PDF form, I wrote a Python script to convert it to a CSV file. Using the power of the pandas library, I cleaned the data while maintaining key column values. The next step was visualization, and my favorite library for this is Plotly Express. I grouped the data into counties (equivalent to U.S. states) and plotted the distribution of voters in each constituency and location using bar plots, Sunburst Diagrams, and pie charts. To enhance the presentation, I used GeoPandas and GeoJSON coordinates to plot a Choropleth map for voters.
+                    <a href="https://medium.com/@samy.migwi/demographic-distribution-of-voters-in-kenya-1c714381fb14">Voters disribution blog on medium</a>
+
+                </p>
+            <p><strong>Library used:</strong> Python, pandas, Plotly, geopandas, Streamlit</p>
+        </div>
+
+        <!-- project 2 -->
+        <div>
+            
+            <h3 style="color: #333;"><a href="https://www.kaggle.com/code/samymigwi/sentiment-analysis-of-british-airline">3. British Airways Data Science Job Simulation</a></h3>
+            <img src="..\files\ba.png" alt="">
+            <p style="text-align: center;">This project was a simulation of how data science skills are used in British Airways. This was an NLP project. The project aimed to do sentiment analysis for British airline reviews and present the findings to senior data scientist. I started the project by web scrapping the Skytrax website for reviews of British airlines where I used the Beautiful Soup library. After obtaining the data I used the Spacy library for sentiment analysis and also the hugging face model for sentiment analysis. I then used the Plotly library to visualize the distribution of sentiment scores. Finally, I made a word cloud visual for the most words used in over 1000 British Airways reviews.
+            </p>
+            <p><strong>Library used</strong>Python, pandas,Plotly,Spacy,nltk,Beautiful Soup</p>
+        </div>
+
+    </div>
+     <!-- project 4-->
+     <h3 style="color: #333;"><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/BCG%20/Tcz8gTtprzAS4xSoK_BCG_Z2JQw6PxML5NPyxAa_1700489618580_completion_certificate.pdf">4.Boston Consulting Group Data science job simulation</a></h3>
+     <p style="text-align: center;">
+        PowerCo a major gas and electricity utility that supplies to corporate, SME, and residential customers has partnered with BCG to help diagnose the source of churning SME customers. The first task was writing an email to PowerCo to request data that I would need for the project and also in which format should the data be. After getting the data I did an exploratory data analysis to gain a holistic understanding of the dataset. Then I verified the hypothesis of price sensitivity being to some extent correlated with churn and sent my findings. Using sklearn I build a predictive model using the features in data to predict if a customer is going to churn or not. After building the model I interpreted the model by deriving which features are the main contributors to customer churning.
+     </p>
+     <p> <strong>These are the libraries i used:</strong> Python, pandas,sklearn</p>
+
+    <div>
+
+    </div>
+
+    <!-- Education Bar -->
+    <div class="education-bar">
+        <h2>Education:</h2>
+
+        <div>
+            <h2 style="color: #333;">1. WorldQuant University</h2>
+            <p>
+                I completed eight projects covering a range of data science topics, including housing analysis, sentiment analysis, customer segmentation, and volatility forecasting.
+            </p>
+            <!-- Include details of each project -->
+            <div style="text-align: left;">
+            <section>
+        <h4>HOUSING IN MEXICO:</h4>
+
+        <h5>Objective:</h5>
+        <p>Determine if real estate prices are influenced more by property size or location.</p>
+
+        <h5>Approach:</h5>
+        <ul>
+            Used a dataset of 21,000 properties.
+            Imported and cleaned data from a CSV file.
+            Built data visualizations to explore the dataset.
+            Examined the relationship between real estate prices, property size, and location.
+            Utilized correlation analysis to understand the dependencies between variables.
+        </ul>
+    </section>
+
+    <!-- Apartment Sales in Buenos Aires -->
+    <section>
+        <h4>APARTMENT SALES IN BUENOS AIRES:</h4>
+
+        <h5>Objective:</h5>
+        <p>Build a linear regression model to predict apartment prices in Argentina.</p>
+
+        <h5>Approach:</h5>
+        <ul>
+            Created a data pipeline to handle missing values and encode categorical features.
+        Applied linear regression to predict apartment prices.
+            Focused on reducing overfitting to improve model performance.
+        </ul>
+    </section>
+
+    <!-- Air Quality in Nairobi -->
+    <section>
+        <h4>AIR QUALITY IN NAIROBI:</h4>
+
+        <h5>Objective:</h5>
+        <p>Build an ARMA time-series model to predict particulate matter levels in Kenya.</p>
+
+        <h5>Approach:</h5>
+        <ul>
+            Extracted data from a MongoDB database using pymongo.
+            Improved model performance through hyperparameter tuning.
+            Applied ARMA time-series modeling to predict air quality levels.
+        </ul>
+    </section>
+
+    <!-- Earthquake Damage in Nepal -->
+    <section>
+        <h4>EARTHQUAKE DAMAGE IN NEPAL:</h4>
+
+        <h5>Objective:</h5>
+        <p>Build logistic regression and decision tree models to predict earthquake damage to buildings.</p>
+
+        <h5>Approach:</h5>
+        <ul>
+            Extracted data from a SQLite database
+            Revealed biases in data that can lead to discrimination.
+            Utilized logistic regression and decision tree models for earthquake damage prediction.
+        </ul>
+    </section>
+
+    <!-- Bankruptcy in Poland -->
+    <section>
+        <h4>BANKRUPTCY IN POLAND:</h4>
+
+        <h5>Objective:</h5>
+        <p>Build random forest and gradient boosting models to predict whether a company will go bankrupt.</p>
+
+        <h5>Approach:</h5>
+        <ul>
+            Navigated the Linux command line.
+            Addressed imbalanced data through resampling techniques.
+            Considered the impact of performance metrics precision and recall in model evaluation.
+        </ul>
+    </section>
+
+    <!-- Customer Segmentation in the US -->
+    <section>
+        <h4>CUSTOMER SEGMENTATION IN THE US:</h4>
+
+        <h5>Objective:</h5>
+        <p>Build a k-means model to cluster US consumers into groups.</p>
+
+        <h5>Approach:</h5>
+        <ul>
+            Used principal component analysis (PCA) for data visualization.
+            Created an interactive dashboard with Plotly Dash for presenting clusters and insights.
+        </ul>
+    </section>
+
+    <!-- A/B Testing at WorldQuant University -->
+    <section>
+        <h4>A/B TESTING AT WORLDQUANT UNIVERSITY:</h4>
+
+        <h5>Objective:</h5>
+        <p>Conduct a chi-square test to determine if sending an email can increase program enrollment at WQU.</p>
+
+        <h5>Approach:</h5>
+        <ul>
+            Built custom Python classes to implement an ETL process.
+            Created an interactive data application following a three-tiered design pattern.
+        </ul>
+    </section>
+
+    <!-- Volatility Forecasting in India -->
+    <section>
+        <h4>VOLATILITY FORECASTING IN INDIA:</h4>
+
+        <h5>Objective:</h5>
+        <p>Create a GARCH time series model to predict asset volatility.</p>
+
+        <h5>Approach:</h5>
+        <ul>
+            Acquired stock data through an API.
+            Cleaned and stored data in a SQLite database.
+            Built an API to serve model predictions for asset volatility.
+        </ul>
+    </section>
+
+    <!-- Summary -->
+    <section>
+        <h2>Summary:</h2>
+        <p>These projects showcase a diverse range of data science skills, including data cleaning, modeling, visualization, and interpretation. Each project demonstrates your ability to tackle complex problems using various techniques and tools.</p>
+    </section>
+      </div>
+        </div>
+
+        
+            <h2 style="color: #333;">2. Kirinyaga University| 2018
+                2022 </h2>
+                <div  style="text-align: left;">
+                    <p> <b>Attendance Period:</b> August 2018 to October 2022 </p>
+                       <p> <b>Degree</b>Bachelor of Science in Computer Science </p> 
+                        <p><b>Grade</b>Graduated with Second Class Honors</p>
+                        <p> <b>Involvement: </b>Actively participated as a member of the Computer Science Club at Kirinyaga University. </p>
+                        <p> <b>Entrepreneurial Initiative:</b> Founded and managed an e-commerce startup, Kemcary, during the university tenure, demonstrating entrepreneurship skills and initiative.
+
+                        </p> 
+                        <p><b>Attachment Experience: </b>Completed an attachment at the State Department of Trade, gaining practical 
+                            skills in the tech field.</p>
+                        
+                
+            <p>
+                Bachelor of Science in Computer Science. <b>Graduated in October 2022.</b> 
+            </p>
+         
+
+        </div>
+        <h2>Work Experience:</h2>
+    
+
+        <div>
+            <h3 style="color: #333;"> 1. IT Support tecnician Adolife hospital  | Nov 2022 - Jan 2024</h3>
+            <h4>Reponsibilties</h4>
+            
+                <div style="text-align: left;">
+                <p>• Troubleshot network issues, including Wi-Fi, LAN, and WAN connectivity.</p> 
+               <p>• Assisted hospital staff with IT-related issues.</p>  
+                <p>• Conducted routine system checks and addressed issues within the hospital management system.</p> 
+                <p>• Managed and maintained computer hardware, printers, servers, and IT equipment. </p>
+                <p>• Conducted training sessions for new staff on using the hospital management system.</p> 
+                <p>• Designed graphics as required for effective visual communication.</p> 
+               <p>• Utilized the Hospital Management System for efficient drug ordering and stock management.</p>  
+              <p>• Sourced and procured medical devices as requested by hospital clients.</p>   
+                <p>• Enhanced hospital operations through effective IT solutions.</p></div>
+    </div>
+
+    <!-- Skills Bar -->
+    <div class="skills-bar">
+        <h2>Skills and Knowledge:</h2>
+
+        <ul style="list-style: none; padding: 0;">
+            <li style="display: inline-block; margin-right: 10px; color: #333;">Data Analysis</li>
+            <li style="display: inline-block; margin-right: 10px; color: #333;">Data Visualization</li>
+            <li style="display: inline-block; margin-right: 10px; color: #333;">Machine Learning</li>
+            <li style="display: inline-block; margin-right: 10px; color: #333;">Data analyst</li>
+            <li style="display: inline-block; margin-right: 10px; color: #333;">Web scrapping</li>
+            <li style="display: inline-block; margin-right: 10px; color: #333;">NLP</li>
+            <li style="display: inline-block; margin-right: 10px; color: #333;">Computer vision</li>
+
+            <!-- Include more skills as needed -->
+        </ul>
+        <div class="skills-bar">
+            <h2>Python knowledge</h2>
+    
+            <ul style="list-style: none; padding: 0;">
+                <li style="display: inline-block; margin-right: 10px; color: #333;">Pandas</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">matplotlib</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">Seaborn</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">Plotly</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">Numpy</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">Beautiful soup</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">Fast api</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">scikit learn</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">Tensorflow</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">Spacy</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">NLTK</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">Keras</li>
+
+                <h2>Database knowledge</h2>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">SQLite</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">MongoDB</li>
+                <li style="display: inline-block; margin-right: 10px; color: #333;">API</li>
+        <h3>Other skills:</h3> 
+        <p style="color: #333;">
+            <li>Graphic design using Adobe Illustrator</li>
+            <li>Website development using WordPress and CRM</li>
+            <li>Website development HTML & CSS </li>
+            <li>Video editing using Adobe Premiere Pro.</li>
+            <li>Computer handware</li>
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Samy Migwi. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
